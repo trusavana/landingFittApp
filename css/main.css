@@ -88,6 +88,7 @@ body {
 .rightHeader {
 	margin-top: 77px;
 	height: 753px;
+	padding-left: 200px;
 	/*background: url(../img/bigPhone.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -245,7 +246,7 @@ h1 {
 }
 .rihgtMan {
 	min-height: 525px;
-	min-width: calc((100% + 140px) * .35);	
+	min-width: calc((100% + 140px) * .44);	
 	/*background: gray;*/
 	background-size: cover;
 	margin-top: 150px;
@@ -256,7 +257,7 @@ h1 {
 .sandvich {
 	margin: 0 auto;
 	height: 109px;
-	min-width: 80%;	
+	width: 80%;	
 	margin-top: 28px;
 	transition: width .3s, height .3s;	
 	border: 1px solid rgba(145, 145, 145, 0.3);
@@ -272,14 +273,20 @@ h1 {
 	width: 100%;
 	height: 139px;
 }
-.firstSand, .secondSand {
-	min-width: calc(100% / 3);
+.firstSand{
+	min-width: 30%;
+	min-height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.secondSand {
+	min-width: 45%;
 	min-height: 100%;
 	display: inline-block;
 	vertical-align: middle;
 }
 .threeSand{
-	min-width: calc(100% * .15);
+	min-width: 25%;
 	min-height: 100%;
 	display: inline-block;
 	vertical-align: middle;
@@ -296,7 +303,7 @@ h1 {
 /*	background: blue;*/
 /*	margin: 0;*/
 	padding: 0;
-	text-align: right;
+	/*text-align: right;*/
 	margin-top: 18px;
 	transition: margin-top .3s;
 }
