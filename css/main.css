@@ -249,7 +249,7 @@ h1 {
 	/*background: gray;*/
 	background-size: cover;
 	margin-top: 150px;
-	margin-left: calc(100% * .07);
+	margin-left: calc(100% * .025);
 	display: inline-block;
 	vertical-align: middle;		
 }
