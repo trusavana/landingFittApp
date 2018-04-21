@@ -66,13 +66,12 @@ body {
 	color: #2ecc71;
 }
 .imgAple {
-	margin-top: 197px;
-	/*width: 111px;
-	height: 111px;*/
+	transform: translateX(-45px);
+	margin-top: 197px;	
 	position: absolute;
 	background: url(../img/app-icon2.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	/*background-size: cover;
+	background-repeat: no-repeat;*/
 }
 /*.leftheader, .rightHeader {
 	width: calc(100% / 2);
